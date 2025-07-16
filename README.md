@@ -29,10 +29,3 @@
   - Penggunaan memori pada ESP32‑WROOM DevKit V1: **12.5% SRAM** & **36.3% Flash**
 
 ---
-
-## 🔧 Instalasi
-
-1. **Clone repository**  
-   ```bash
-   git clone https://github.com/username/PupukIn.git
-   cd PupukIn
