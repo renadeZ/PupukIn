@@ -45,7 +45,7 @@ void postTrasmit(){digitalWrite(DERE_PIN, LOW);}
 uint16_t readNPK(uint16_t address){
     uint16_t result = modbus.readHoldingRegisters(address,1);
     if(result != modbus.ku8MBSuccess){
-        // Serial.println("!Sensor Tidak Terbaca");
+        Serial.println("!Sensor Tidak Terbaca");
     }
     return modbus.getResponseBuffer(0);
 }
